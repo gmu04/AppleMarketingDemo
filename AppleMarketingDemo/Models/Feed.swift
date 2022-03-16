@@ -11,5 +11,14 @@ struct FeedReponse:Decodable{
 }
 
 struct Feed:Decodable{
-	
+	let genres:[Genre]			//genres
+	let releaseDate:String		//ReleaseDate
+	let artistName:String		//Artist Name
+	let artworkUrl100:String	//Album Image
+}
+
+struct Genre:Decodable{
+	let genreId:Int
+	let name:String
+	let url:String
 }
