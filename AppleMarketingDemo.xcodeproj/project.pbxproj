@@ -51,10 +51,10 @@
 		F72BA27E27E1B66F0052AFE0 /* AppleMarketingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F72BA27F27E1B66F0052AFE0 /* AppleMarketingDemoApp.swift */,
-				F72BA28127E1B66F0052AFE0 /* ContentView.swift */,
-				F72BA28327E1B6720052AFE0 /* Assets.xcassets */,
-				F72BA28527E1B6720052AFE0 /* Preview Content */,
+				F72BA29027E1B6B50052AFE0 /* App */,
+				F72BA28F27E1B6AA0052AFE0 /* Models */,
+				F72BA28E27E1B6A00052AFE0 /* ViewModels */,
+				F72BA28D27E1B6850052AFE0 /* Views */,
 			);
 			path = AppleMarketingDemo;
 			sourceTree = "<group>";
@@ -65,6 +65,38 @@
 				F72BA28627E1B6720052AFE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F72BA28D27E1B6850052AFE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F72BA28127E1B66F0052AFE0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F72BA28E27E1B6A00052AFE0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F72BA28F27E1B6AA0052AFE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F72BA29027E1B6B50052AFE0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F72BA27F27E1B66F0052AFE0 /* AppleMarketingDemoApp.swift */,
+				F72BA28327E1B6720052AFE0 /* Assets.xcassets */,
+				F72BA28527E1B6720052AFE0 /* Preview Content */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
