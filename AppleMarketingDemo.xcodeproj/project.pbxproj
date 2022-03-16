@@ -194,7 +194,6 @@
 			children = (
 				F72BA2C427E26EDA0052AFE0 /* json */,
 				F72BA2B927E25EE40052AFE0 /* AMTServiceTests.swift */,
-				F72BA2C027E26B2D0052AFE0 /* MockDataSource.swift */,
 			);
 			path = AppleMarketingDemoTests;
 			sourceTree = "<group>";
@@ -203,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				F72BA2C227E26C0F0052AFE0 /* most_played_10_albums.json */,
+				F72BA2C027E26B2D0052AFE0 /* MockDataSource.swift */,
 			);
 			path = json;
 			sourceTree = "<group>";
