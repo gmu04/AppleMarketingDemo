@@ -13,10 +13,10 @@ final class AMTService<S:Session>{
 	}
 	
 	
-	internal func getRssFeeds(completion:@escaping (Result<[Feed], AMTError>)->()){
+	internal func getRssFeeds(resultLimit:Int = 50, completion:@escaping (Result<[Feed], AMTError>)->()){
 		
 		//prepare search url
-		guard let validUrl = URL.getAppleMarkettingToolUrl() else { fatalError("Url is not valid!") }
+		guard let validUrl = URL.getAppleMarkettingToolUrl(resultLimit: resultLimit) else { fatalError("Url is not valid!") }
 		
 		//call API client to search
 		client.searchFor(url: validUrl){ result in

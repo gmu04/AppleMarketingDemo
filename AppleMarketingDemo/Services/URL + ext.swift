@@ -11,11 +11,20 @@ extension URL{
 	 https://rss.applemarketingtools.com/api/v2/us/music/most-played/50/albums.json
  	*/
 	
-	static func getAppleMarkettingToolUrl() -> URL?{
+	static func getAppleMarkettingToolUrl(resultLimit:Int) -> URL?{
+		//business rule 0<resul limit<101
+		var limit = resultLimit
+		switch resultLimit{
+			case 1...100:
+				limit = resultLimit
+			default:
+				limit = 1
+		}
+		
 		var c = URLComponents()
 		c.scheme = "https"
 		c.host = "rss.applemarketingtools.com"
-		c.path = "/api/v2/us/music/most-played/50/albums.json"
+		c.path = "/api/v2/us/music/most-played/\(limit)/albums.json"
 		
 		return c.url
 	}

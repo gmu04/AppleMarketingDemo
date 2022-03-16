@@ -20,7 +20,6 @@ class AlbumListViewModel<S:Session>:ObservableObject{
 			switch result {
 					
 				case .failure(let err):
-					//FIXME: edge case - what is the best solution here?
 					print(err)
 					
 				case .success(let feeds):

@@ -27,7 +27,20 @@
 		F72BA2AE27E2036A0052AFE0 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2AD27E2036A0052AFE0 /* AsyncImageView.swift */; };
 		F72BA2B027E205B90052AFE0 /* AlbumListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2AF27E205B90052AFE0 /* AlbumListDetailViewModel.swift */; };
 		F72BA2B227E211820052AFE0 /* SearchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2B127E211820052AFE0 /* SearchModuleView.swift */; };
+		F72BA2BA27E25EE40052AFE0 /* AMTServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2B927E25EE40052AFE0 /* AMTServiceTests.swift */; };
+		F72BA2C127E26B2D0052AFE0 /* MockDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2C027E26B2D0052AFE0 /* MockDataSource.swift */; };
+		F72BA2C327E26C0F0052AFE0 /* most_played_10_albums.json in Resources */ = {isa = PBXBuildFile; fileRef = F72BA2C227E26C0F0052AFE0 /* most_played_10_albums.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72BA2BB27E25EE40052AFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72BA27427E1B66F0052AFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72BA27B27E1B66F0052AFE0;
+			remoteInfo = AppleMarketingDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F72BA27C27E1B66F0052AFE0 /* AppleMarketingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMarketingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,10 +64,21 @@
 		F72BA2AD27E2036A0052AFE0 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		F72BA2AF27E205B90052AFE0 /* AlbumListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListDetailViewModel.swift; sourceTree = "<group>"; };
 		F72BA2B127E211820052AFE0 /* SearchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModuleView.swift; sourceTree = "<group>"; };
+		F72BA2B727E25EE40052AFE0 /* AppleMarketingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMarketingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72BA2B927E25EE40052AFE0 /* AMTServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTServiceTests.swift; sourceTree = "<group>"; };
+		F72BA2C027E26B2D0052AFE0 /* MockDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataSource.swift; sourceTree = "<group>"; };
+		F72BA2C227E26C0F0052AFE0 /* most_played_10_albums.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = most_played_10_albums.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F72BA27927E1B66F0052AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72BA2B427E25EE40052AFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F72BA27E27E1B66F0052AFE0 /* AppleMarketingDemo */,
+				F72BA2B827E25EE40052AFE0 /* AppleMarketingDemoTests */,
 				F72BA27D27E1B66F0052AFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				F72BA27C27E1B66F0052AFE0 /* AppleMarketingDemo.app */,
+				F72BA2B727E25EE40052AFE0 /* AppleMarketingDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +189,24 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
+		F72BA2B827E25EE40052AFE0 /* AppleMarketingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72BA2C427E26EDA0052AFE0 /* json */,
+				F72BA2B927E25EE40052AFE0 /* AMTServiceTests.swift */,
+				F72BA2C027E26B2D0052AFE0 /* MockDataSource.swift */,
+			);
+			path = AppleMarketingDemoTests;
+			sourceTree = "<group>";
+		};
+		F72BA2C427E26EDA0052AFE0 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F72BA2C227E26C0F0052AFE0 /* most_played_10_albums.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +227,24 @@
 			productReference = F72BA27C27E1B66F0052AFE0 /* AppleMarketingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F72BA2B627E25EE40052AFE0 /* AppleMarketingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72BA2BD27E25EE40052AFE0 /* Build configuration list for PBXNativeTarget "AppleMarketingDemoTests" */;
+			buildPhases = (
+				F72BA2B327E25EE40052AFE0 /* Sources */,
+				F72BA2B427E25EE40052AFE0 /* Frameworks */,
+				F72BA2B527E25EE40052AFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72BA2BC27E25EE40052AFE0 /* PBXTargetDependency */,
+			);
+			name = AppleMarketingDemoTests;
+			productName = AppleMarketingDemoTests;
+			productReference = F72BA2B727E25EE40052AFE0 /* AppleMarketingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +257,10 @@
 				TargetAttributes = {
 					F72BA27B27E1B66F0052AFE0 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					F72BA2B627E25EE40052AFE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F72BA27B27E1B66F0052AFE0;
 					};
 				};
 			};
@@ -212,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				F72BA27B27E1B66F0052AFE0 /* AppleMarketingDemo */,
+				F72BA2B627E25EE40052AFE0 /* AppleMarketingDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +290,14 @@
 			files = (
 				F72BA28727E1B6720052AFE0 /* Preview Assets.xcassets in Resources */,
 				F72BA28427E1B6720052AFE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72BA2B527E25EE40052AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72BA2C327E26C0F0052AFE0 /* most_played_10_albums.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +329,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F72BA2B327E25EE40052AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72BA2C127E26B2D0052AFE0 /* MockDataSource.swift in Sources */,
+				F72BA2BA27E25EE40052AFE0 /* AMTServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72BA2BC27E25EE40052AFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72BA27B27E1B66F0052AFE0 /* AppleMarketingDemo */;
+			targetProxy = F72BA2BB27E25EE40052AFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F72BA28827E1B6720052AFE0 /* Debug */ = {
@@ -431,6 +523,42 @@
 			};
 			name = Release;
 		};
+		F72BA2BE27E25EE40052AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85373584HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.AppleMarketingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMarketingDemo.app/AppleMarketingDemo";
+			};
+			name = Debug;
+		};
+		F72BA2BF27E25EE40052AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85373584HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.AppleMarketingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMarketingDemo.app/AppleMarketingDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +576,15 @@
 			buildConfigurations = (
 				F72BA28B27E1B6720052AFE0 /* Debug */,
 				F72BA28C27E1B6720052AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72BA2BD27E25EE40052AFE0 /* Build configuration list for PBXNativeTarget "AppleMarketingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72BA2BE27E25EE40052AFE0 /* Debug */,
+				F72BA2BF27E25EE40052AFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
