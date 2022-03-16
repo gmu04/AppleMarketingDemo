@@ -12,7 +12,7 @@ struct AlbumListView: View {
 			VStack {
 				List{
 					ForEach(albumListVM.feeds, id:\.id) { feed in
-						Text(feed.artistName)
+						AlbumListCellView(feed: feed)
 					}
 				}
 				.listStyle(.plain)

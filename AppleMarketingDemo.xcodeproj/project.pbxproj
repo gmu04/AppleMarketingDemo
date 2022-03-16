@@ -20,6 +20,9 @@
 		F72BA2A027E1BEB90052AFE0 /* AMTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA29F27E1BEB90052AFE0 /* AMTParser.swift */; };
 		F72BA2A227E1EA720052AFE0 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */; };
 		F72BA2A427E1EB8F0052AFE0 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A327E1EB8F0052AFE0 /* AlbumListViewModel.swift */; };
+		F72BA2A627E1F4EB0052AFE0 /* AlbumListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A527E1F4EB0052AFE0 /* AlbumListCellView.swift */; };
+		F72BA2A827E1F53A0052AFE0 /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A727E1F53A0052AFE0 /* JsonResponse.swift */; };
+		F72BA2AA27E1F5550052AFE0 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A927E1F5550052AFE0 /* Genre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		F72BA29F27E1BEB90052AFE0 /* AMTParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTParser.swift; sourceTree = "<group>"; };
 		F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
 		F72BA2A327E1EB8F0052AFE0 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		F72BA2A527E1F4EB0052AFE0 /* AlbumListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCellView.swift; sourceTree = "<group>"; };
+		F72BA2A727E1F53A0052AFE0 /* JsonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResponse.swift; sourceTree = "<group>"; };
+		F72BA2A927E1F5550052AFE0 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 			children = (
 				F72BA28127E1B66F0052AFE0 /* ContentView.swift */,
 				F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */,
+				F72BA2A527E1F4EB0052AFE0 /* AlbumListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,7 +113,9 @@
 		F72BA28F27E1B6AA0052AFE0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F72BA2A727E1F53A0052AFE0 /* JsonResponse.swift */,
 				F72BA29B27E1BC240052AFE0 /* Feed.swift */,
+				F72BA2A927E1F5550052AFE0 /* Genre.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,13 +225,16 @@
 				F72BA2A427E1EB8F0052AFE0 /* AlbumListViewModel.swift in Sources */,
 				F72BA29E27E1BD920052AFE0 /* URL + ext.swift in Sources */,
 				F72BA29927E1BA1A0052AFE0 /* AMTService.swift in Sources */,
+				F72BA2A827E1F53A0052AFE0 /* JsonResponse.swift in Sources */,
 				F72BA29327E1B9250052AFE0 /* HttpClient.swift in Sources */,
 				F72BA2A227E1EA720052AFE0 /* AlbumListView.swift in Sources */,
+				F72BA2A627E1F4EB0052AFE0 /* AlbumListCellView.swift in Sources */,
 				F72BA29C27E1BC240052AFE0 /* Feed.swift in Sources */,
 				F72BA28227E1B66F0052AFE0 /* ContentView.swift in Sources */,
 				F72BA28027E1B66F0052AFE0 /* AppleMarketingDemoApp.swift in Sources */,
 				F72BA2A027E1BEB90052AFE0 /* AMTParser.swift in Sources */,
 				F72BA29727E1B98B0052AFE0 /* AMTError.swift in Sources */,
+				F72BA2AA27E1F5550052AFE0 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

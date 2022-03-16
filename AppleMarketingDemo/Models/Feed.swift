@@ -2,13 +2,7 @@
 
 import Foundation
 
-struct JsonResponse:Decodable{
-	let feed:FeedReponse
-}
 
-struct FeedReponse:Decodable{
-	let results:[Feed]
-}
 
 struct Feed:Decodable, Identifiable{
 	let artistName:String
@@ -39,8 +33,16 @@ extension Feed{
 	}
 }
 
-
-struct Genre:Decodable{
-	let name:String
-	let url:String
+extension Feed{
+	//use in Previews
+	static var placeholder:Feed{
+		return Feed(artistName: "Lin-Manuel Miranda, Germaine Franco, Stephanie Beatriz, Olga Merediz & Jessica Darrow",
+					releaseDate: "2021-11-19",
+					albumImage: "https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/94/4d/9a/944d9a8d-0549-f537-5706-5b083bd84a7d/21UM1IM38949.rgb.jpg/100x100bb.jpg",
+					genres: [
+						Genre(name: "Music", url: "https://itunes.apple.com/us/genre/id34"),
+						Genre(name: "Soundtrack", url: "https://itunes.apple.com/us/genre/id16")
+					],
+					id: UUID())
+	}
 }
