@@ -8,7 +8,7 @@ struct Feed:Decodable, Identifiable{
 	let artistName:String
 	let releaseDate:String
 	let albumImage:String
-	let genres:[Genre]?
+	let genres:[Genre]
 
 	var id:UUID
 	
@@ -40,8 +40,8 @@ extension Feed{
 					releaseDate: "2021-11-19",
 					albumImage: "https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/94/4d/9a/944d9a8d-0549-f537-5706-5b083bd84a7d/21UM1IM38949.rgb.jpg/100x100bb.jpg",
 					genres: [
-						Genre(name: "Music", url: "https://itunes.apple.com/us/genre/id34"),
-						Genre(name: "Soundtrack", url: "https://itunes.apple.com/us/genre/id16")
+						Genre(genreId:"34", name: "Music", url: "https://itunes.apple.com/us/genre/id34"),
+						Genre(genreId:"16", name: "Soundtrack", url: "https://itunes.apple.com/us/genre/id16")
 					],
 					id: UUID())
 	}

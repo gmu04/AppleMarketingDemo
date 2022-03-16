@@ -2,7 +2,8 @@
 
 import Foundation
 
-struct Genre:Decodable{
+struct Genre:Decodable, Hashable{
+	let genreId:String
 	let name:String
 	let url:String
 }

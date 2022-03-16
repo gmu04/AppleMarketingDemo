@@ -12,7 +12,12 @@ struct AlbumListView: View {
 			VStack {
 				List{
 					ForEach(albumListVM.feeds, id:\.id) { feed in
-						AlbumListCellView(feed: feed)
+						NavigationLink {
+							AlbumListDetailView(feed: feed)
+						} label: {
+							AlbumListCellView(feed: feed)
+						}
+						
 					}
 				}
 				.listStyle(.plain)
