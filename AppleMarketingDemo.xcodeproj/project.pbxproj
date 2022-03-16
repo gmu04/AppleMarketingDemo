@@ -26,6 +26,7 @@
 		F72BA2AC27E2015C0052AFE0 /* AlbumListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2AB27E2015C0052AFE0 /* AlbumListDetailView.swift */; };
 		F72BA2AE27E2036A0052AFE0 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2AD27E2036A0052AFE0 /* AsyncImageView.swift */; };
 		F72BA2B027E205B90052AFE0 /* AlbumListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2AF27E205B90052AFE0 /* AlbumListDetailViewModel.swift */; };
+		F72BA2B227E211820052AFE0 /* SearchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2B127E211820052AFE0 /* SearchModuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F72BA2AB27E2015C0052AFE0 /* AlbumListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListDetailView.swift; sourceTree = "<group>"; };
 		F72BA2AD27E2036A0052AFE0 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		F72BA2AF27E205B90052AFE0 /* AlbumListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListDetailViewModel.swift; sourceTree = "<group>"; };
+		F72BA2B127E211820052AFE0 /* SearchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F72BA2A527E1F4EB0052AFE0 /* AlbumListCellView.swift */,
 				F72BA2AB27E2015C0052AFE0 /* AlbumListDetailView.swift */,
 				F72BA2AD27E2036A0052AFE0 /* AsyncImageView.swift */,
+				F72BA2B127E211820052AFE0 /* SearchModuleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				F72BA29327E1B9250052AFE0 /* HttpClient.swift in Sources */,
 				F72BA2A227E1EA720052AFE0 /* AlbumListView.swift in Sources */,
 				F72BA2B027E205B90052AFE0 /* AlbumListDetailViewModel.swift in Sources */,
+				F72BA2B227E211820052AFE0 /* SearchModuleView.swift in Sources */,
 				F72BA2A627E1F4EB0052AFE0 /* AlbumListCellView.swift in Sources */,
 				F72BA2AC27E2015C0052AFE0 /* AlbumListDetailView.swift in Sources */,
 				F72BA29C27E1BC240052AFE0 /* Feed.swift in Sources */,
