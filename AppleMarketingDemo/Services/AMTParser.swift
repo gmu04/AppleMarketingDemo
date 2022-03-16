@@ -19,7 +19,7 @@ struct AMTParser:JSonParser{
 		}
 	}
 	
-	typealias T = [Feed]
+	typealias T = JsonResponse
 	typealias TError = AMTError
 }
 

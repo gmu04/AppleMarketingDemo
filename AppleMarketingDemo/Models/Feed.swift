@@ -18,7 +18,6 @@ struct Feed:Decodable{
 }
 
 struct Genre:Decodable{
-	let genreId:Int
 	let name:String
 	let url:String
 }

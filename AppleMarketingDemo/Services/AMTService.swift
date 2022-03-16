@@ -12,11 +12,6 @@ final class AMTService<S:Session>{
 		self.client = HttpClient(session: session)
 	}
 	
-//	//injecting session
-//	convenience init(session:S)
-//		self.init(session: session)
-//	}
-	
 	
 	internal func getRssFeeds(completion:@escaping (Result<[Feed], AMTError>)->()){
 		
@@ -35,10 +30,10 @@ final class AMTService<S:Session>{
 					let result = AMTParser().parse(data: data)
 
 					//return launches
-					if case let .success(launches) = result{
+					if case let .success(jsonResponse) = result{
 						//print(launches)
 						
-						completion(.success(launches))
+						completion(.success(jsonResponse.feed.results))
 					}else{
 						completion(.failure(.jsonParsing("Check the logs...")))
 					}
