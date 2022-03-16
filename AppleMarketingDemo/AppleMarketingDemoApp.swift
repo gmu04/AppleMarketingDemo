@@ -6,7 +6,8 @@ import SwiftUI
 struct AppleMarketingDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+			AlbumListView()
         }
     }
 }

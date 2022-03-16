@@ -4,10 +4,8 @@ import SwiftUI
 
 struct ContentView: View {
 	
-	init() {
-		
+	/*init() {
 		//check if service works - TESTING
-		/*
 		let service = AMTService(session: URLSession.shared)
 		service.getRssFeeds { result in
 			switch result {
@@ -19,13 +17,12 @@ struct ContentView: View {
 					print(err)
 			}
 		}
-		*/
-	}
+		
+	}*/
 	
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+		Text("Hello, World!")
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {

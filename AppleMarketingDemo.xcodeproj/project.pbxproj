@@ -18,6 +18,8 @@
 		F72BA29C27E1BC240052AFE0 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA29B27E1BC240052AFE0 /* Feed.swift */; };
 		F72BA29E27E1BD920052AFE0 /* URL + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA29D27E1BD920052AFE0 /* URL + ext.swift */; };
 		F72BA2A027E1BEB90052AFE0 /* AMTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA29F27E1BEB90052AFE0 /* AMTParser.swift */; };
+		F72BA2A227E1EA720052AFE0 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */; };
+		F72BA2A427E1EB8F0052AFE0 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA2A327E1EB8F0052AFE0 /* AlbumListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F72BA29B27E1BC240052AFE0 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		F72BA29D27E1BD920052AFE0 /* URL + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + ext.swift"; sourceTree = "<group>"; };
 		F72BA29F27E1BEB90052AFE0 /* AMTParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTParser.swift; sourceTree = "<group>"; };
+		F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		F72BA2A327E1EB8F0052AFE0 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F72BA28127E1B66F0052AFE0 /* ContentView.swift */,
+				F72BA2A127E1EA720052AFE0 /* AlbumListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		F72BA28E27E1B6A00052AFE0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F72BA2A327E1EB8F0052AFE0 /* AlbumListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -207,9 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72BA29527E1B9530052AFE0 /* Session.swift in Sources */,
+				F72BA2A427E1EB8F0052AFE0 /* AlbumListViewModel.swift in Sources */,
 				F72BA29E27E1BD920052AFE0 /* URL + ext.swift in Sources */,
 				F72BA29927E1BA1A0052AFE0 /* AMTService.swift in Sources */,
 				F72BA29327E1B9250052AFE0 /* HttpClient.swift in Sources */,
+				F72BA2A227E1EA720052AFE0 /* AlbumListView.swift in Sources */,
 				F72BA29C27E1BC240052AFE0 /* Feed.swift in Sources */,
 				F72BA28227E1B66F0052AFE0 /* ContentView.swift in Sources */,
 				F72BA28027E1B66F0052AFE0 /* AppleMarketingDemoApp.swift in Sources */,
