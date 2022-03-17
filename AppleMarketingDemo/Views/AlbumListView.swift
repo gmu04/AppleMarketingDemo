@@ -7,6 +7,7 @@ struct AlbumListView: View {
 	
 	@ObservedObject var albumListVM = AlbumListViewModel(session: URLSession.shared)
 	@State private var showModal = false
+	@State private var showUserMessage = false
 	
     var body: some View {
 		NavigationView {
@@ -26,6 +27,16 @@ struct AlbumListView: View {
 					albumListVM.getLaunchList()
 				}
 			}
+			.alert(albumListVM.anyUserMessage ?? "", isPresented: $showUserMessage, actions: {
+				Button("Ok") {
+					albumListVM.anyUserMessage = nil
+				}
+			})
+			.onChange(of: albumListVM.anyUserMessage, perform: { newValue in
+				if newValue != nil{
+					showUserMessage.toggle()
+				}
+			})
 			.sheet(isPresented: $showModal) {
 				
 			} content: {

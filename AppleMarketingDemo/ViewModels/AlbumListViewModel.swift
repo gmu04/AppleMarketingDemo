@@ -5,6 +5,7 @@ import Combine
 
 class AlbumListViewModel<S:Session>:ObservableObject{
 	@Published var feeds:[Feed] = []
+	@Published var anyUserMessage:String?
 	
 	private var service:AMTService<S>!
 	
@@ -20,6 +21,9 @@ class AlbumListViewModel<S:Session>:ObservableObject{
 			switch result {
 					
 				case .failure(let err):
+					DispatchQueue.main.async {
+						self.anyUserMessage = "There is a problem:\n\(err.localizedDescription)"
+					}
 					print(err)
 					
 				case .success(let feeds):
