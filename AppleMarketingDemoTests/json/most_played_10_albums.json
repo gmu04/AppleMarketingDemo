@@ -1,260 +1,260 @@
 {
-"feed":{
-"title":"Top Albums",
-"id":"https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
-"author":{
-"name":"Apple",
-"url":"https://www.apple.com/",
-},
-"links":[
-{
-"self":"https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
-}
-],
-"copyright":"Copyright © 2022 Apple Inc. All rights reserved.",
-"country":"us",
-"icon":"https://www.apple.com/favicon.ico",
-"updated":"Wed, 16 Mar 2022 19:04:58 +0000",
-"results":[
-{
-"artistName":"Lil Durk",
-"id":"1611055823",
-"name":"7220",
-"releaseDate":"2022-03-11",
-"kind":"albums",
-"artistId":"541282483",
-"artistUrl":"https://music.apple.com/us/artist/lil-durk/541282483",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f4/76/d0/f476d05a-9e7f-4e88-e891-9488dabe3b5f/886449944361.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/7220/1611055823",
-},
-{
-"artistName":"Lin-Manuel Miranda, Germaine Franco, Stephanie Beatriz, Olga Merediz & Jessica Darrow",
-"id":"1594677532",
-"name":"Encanto (Original Motion Picture Soundtrack)",
-"releaseDate":"2021-11-19",
-"kind":"albums",
-"artistId":"329027198",
-"artistUrl":"https://music.apple.com/us/artist/lin-manuel-miranda/329027198",
-"artworkUrl100":"https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/94/4d/9a/944d9a8d-0549-f537-5706-5b083bd84a7d/21UM1IM38949.rgb.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-},
-{
-"genreId":"16",
-"name":"Soundtrack",
-"url":"https://itunes.apple.com/us/genre/id16",
-}
-],
-"url":"https://music.apple.com/us/album/encanto-original-motion-picture-soundtrack/1594677532",
-},
-{
-"artistName":"King Von",
-"id":"1611984334",
-"name":"What It Means To Be King",
-"releaseDate":"2022-03-04",
-"kind":"albums",
-"artistId":"1231467923",
-"artistUrl":"https://music.apple.com/us/artist/king-von/1231467923",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/c3/22/09/c32209d4-4a2c-21bd-b479-535702455340/194690783944_cover.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/what-it-means-to-be-king/1611984334",
-},
-{
-"artistName":"Kodak Black",
-"id":"1608934589",
-"name":"Back For Everything",
-"releaseDate":"2022-02-25",
-"kind":"albums",
-"artistId":"953921140",
-"artistUrl":"https://music.apple.com/us/artist/kodak-black/953921140",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/34/6e/e7346ef5-fe41-042c-a5b8-ee82d68f074d/075679758057.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/back-for-everything/1608934589",
-},
-{
-"artistName":"DaBaby & YoungBoy Never Broke Again",
-"id":"1612367153",
-"name":"BETTER THAN YOU",
-"releaseDate":"2022-03-04",
-"kind":"albums",
-"artistId":"1175595427",
-"artistUrl":"https://music.apple.com/us/artist/dababy/1175595427",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/09/ec/80/09ec80ad-6c8f-2b54-a9ad-db8dc08bd08d/22UMGIM18871.rgb.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/better-than-you/1612367153",
-},
-{
-"artistName":"Benny the Butcher",
-"id":"1613230233",
-"name":"Tana Talk 4",
-"releaseDate":"2022-03-11",
-"kind":"albums",
-"artistId":"1281676587",
-"artistUrl":"https://music.apple.com/us/artist/benny-the-butcher/1281676587",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/e5/f6/aa/e5f6aae2-2142-5cb1-a459-cd68a2234fbe/194690791918_cover.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/tana-talk-4/1613230233",
-},
-{
-"artistName":"Gunna",
-"id":"1604944424",
-"name":"DRIP SEASON 4EVER",
-"releaseDate":"2022-01-07",
-"kind":"albums",
-"artistId":"1236267297",
-"artistUrl":"https://music.apple.com/us/artist/gunna/1236267297",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is5-ssl.mzstatic.com/image/thumb/Music116/v4/e6/52/54/e6525474-f011-257e-04b7-12ecbae264e1/810043689519.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/drip-season-4ever/1604944424",
-},
-{
-"artistName":"Drake",
-"id":"1584281467",
-"name":"Certified Lover Boy",
-"releaseDate":"2021-09-03",
-"kind":"albums",
-"artistId":"271256",
-"artistUrl":"https://music.apple.com/us/artist/drake/271256",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/certified-lover-boy/1584281467",
-},
-{
-"artistName":"YoungBoy Never Broke Again",
-"id":"1607411220",
-"name":"Colors",
-"releaseDate":"2022-01-21",
-"kind":"albums",
-"artistId":"1168822104",
-"artistUrl":"https://music.apple.com/us/artist/youngboy-never-broke-again/1168822104",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/77/19/03771916-31b7-4ec4-6173-fdb4b4a4eae7/075679757272.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"18",
-"name":"Hip-Hop/Rap",
-"url":"https://itunes.apple.com/us/genre/id18",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/colors/1607411220",
-},
-{
-"artistName":"Lucky Daye",
-"id":"1612505699",
-"name":"Candydrip",
-"releaseDate":"2022-03-10",
-"kind":"albums",
-"artistId":"1110820355",
-"artistUrl":"https://music.apple.com/us/artist/lucky-daye/1110820355",
-"contentAdvisoryRating":"Explict",
-"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/9b/50/db9b504b-8995-3a0d-a9cf-bdfade15398a/886449872749.jpg/100x100bb.jpg",
-"genres":[
-{
-"genreId":"15",
-"name":"R&B/Soul",
-"url":"https://itunes.apple.com/us/genre/id15",
-},
-{
-"genreId":"34",
-"name":"Music",
-"url":"https://itunes.apple.com/us/genre/id34",
-}
-],
-"url":"https://music.apple.com/us/album/candydrip/1612505699",
-}
-]
-}
+	"feed":{
+		"title":"Top Albums",
+		"id":"https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
+		"author":{
+			"name":"Apple",
+			"url":"https://www.apple.com/",
+		},
+		"links":[
+			{
+				"self":"https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
+			}
+		],
+		"copyright":"Copyright © 2022 Apple Inc. All rights reserved.",
+		"country":"us",
+		"icon":"https://www.apple.com/favicon.ico",
+		"updated":"Wed, 16 Mar 2022 19:04:58 +0000",
+		"results":[
+			{
+				"artistName":"Lil Durk",
+				"id":"1611055823",
+				"name":"7220",
+				"releaseDate":"2022-03-11",
+				"kind":"albums",
+				"artistId":"541282483",
+				"artistUrl":"https://music.apple.com/us/artist/lil-durk/541282483",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f4/76/d0/f476d05a-9e7f-4e88-e891-9488dabe3b5f/886449944361.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/7220/1611055823",
+			},
+			{
+				"artistName":"Lin-Manuel Miranda, Germaine Franco, Stephanie Beatriz, Olga Merediz & Jessica Darrow",
+				"id":"1594677532",
+				"name":"Encanto (Original Motion Picture Soundtrack)",
+				"releaseDate":"2021-11-19",
+				"kind":"albums",
+				"artistId":"329027198",
+				"artistUrl":"https://music.apple.com/us/artist/lin-manuel-miranda/329027198",
+				"artworkUrl100":"https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/94/4d/9a/944d9a8d-0549-f537-5706-5b083bd84a7d/21UM1IM38949.rgb.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					},
+					{
+						"genreId":"16",
+						"name":"Soundtrack",
+						"url":"https://itunes.apple.com/us/genre/id16",
+					}
+				],
+				"url":"https://music.apple.com/us/album/encanto-original-motion-picture-soundtrack/1594677532",
+			},
+			{
+				"artistName":"King Von",
+				"id":"1611984334",
+				"name":"What It Means To Be King",
+				"releaseDate":"2022-03-04",
+				"kind":"albums",
+				"artistId":"1231467923",
+				"artistUrl":"https://music.apple.com/us/artist/king-von/1231467923",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/c3/22/09/c32209d4-4a2c-21bd-b479-535702455340/194690783944_cover.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/what-it-means-to-be-king/1611984334",
+			},
+			{
+				"artistName":"Kodak Black",
+				"id":"1608934589",
+				"name":"Back For Everything",
+				"releaseDate":"2022-02-25",
+				"kind":"albums",
+				"artistId":"953921140",
+				"artistUrl":"https://music.apple.com/us/artist/kodak-black/953921140",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/34/6e/e7346ef5-fe41-042c-a5b8-ee82d68f074d/075679758057.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/back-for-everything/1608934589",
+			},
+			{
+				"artistName":"DaBaby & YoungBoy Never Broke Again",
+				"id":"1612367153",
+				"name":"BETTER THAN YOU",
+				"releaseDate":"2022-03-04",
+				"kind":"albums",
+				"artistId":"1175595427",
+				"artistUrl":"https://music.apple.com/us/artist/dababy/1175595427",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/09/ec/80/09ec80ad-6c8f-2b54-a9ad-db8dc08bd08d/22UMGIM18871.rgb.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/better-than-you/1612367153",
+			},
+			{
+				"artistName":"Benny the Butcher",
+				"id":"1613230233",
+				"name":"Tana Talk 4",
+				"releaseDate":"2022-03-11",
+				"kind":"albums",
+				"artistId":"1281676587",
+				"artistUrl":"https://music.apple.com/us/artist/benny-the-butcher/1281676587",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/e5/f6/aa/e5f6aae2-2142-5cb1-a459-cd68a2234fbe/194690791918_cover.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/tana-talk-4/1613230233",
+			},
+			{
+				"artistName":"Gunna",
+				"id":"1604944424",
+				"name":"DRIP SEASON 4EVER",
+				"releaseDate":"2022-01-07",
+				"kind":"albums",
+				"artistId":"1236267297",
+				"artistUrl":"https://music.apple.com/us/artist/gunna/1236267297",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is5-ssl.mzstatic.com/image/thumb/Music116/v4/e6/52/54/e6525474-f011-257e-04b7-12ecbae264e1/810043689519.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/drip-season-4ever/1604944424",
+			},
+			{
+				"artistName":"Drake",
+				"id":"1584281467",
+				"name":"Certified Lover Boy",
+				"releaseDate":"2021-09-03",
+				"kind":"albums",
+				"artistId":"271256",
+				"artistUrl":"https://music.apple.com/us/artist/drake/271256",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/certified-lover-boy/1584281467",
+			},
+			{
+				"artistName":"YoungBoy Never Broke Again",
+				"id":"1607411220",
+				"name":"Colors",
+				"releaseDate":"2022-01-21",
+				"kind":"albums",
+				"artistId":"1168822104",
+				"artistUrl":"https://music.apple.com/us/artist/youngboy-never-broke-again/1168822104",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/77/19/03771916-31b7-4ec4-6173-fdb4b4a4eae7/075679757272.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"18",
+						"name":"Hip-Hop/Rap",
+						"url":"https://itunes.apple.com/us/genre/id18",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/colors/1607411220",
+			},
+			{
+				"artistName":"Lucky Daye",
+				"id":"1612505699",
+				"name":"Candydrip",
+				"releaseDate":"2022-03-10",
+				"kind":"albums",
+				"artistId":"1110820355",
+				"artistUrl":"https://music.apple.com/us/artist/lucky-daye/1110820355",
+				"contentAdvisoryRating":"Explict",
+				"artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/9b/50/db9b504b-8995-3a0d-a9cf-bdfade15398a/886449872749.jpg/100x100bb.jpg",
+				"genres":[
+					{
+						"genreId":"15",
+						"name":"R&B/Soul",
+						"url":"https://itunes.apple.com/us/genre/id15",
+					},
+					{
+						"genreId":"34",
+						"name":"Music",
+						"url":"https://itunes.apple.com/us/genre/id34",
+					}
+				],
+				"url":"https://music.apple.com/us/album/candydrip/1612505699",
+			}
+		]
+	}
 }
