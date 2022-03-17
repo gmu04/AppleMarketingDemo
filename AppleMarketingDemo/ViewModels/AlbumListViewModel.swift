@@ -22,7 +22,12 @@ class AlbumListViewModel<S:Session>:ObservableObject{
 					
 				case .failure(let err):
 					DispatchQueue.main.async {
-						self.anyUserMessage = "There is a problem:\n\(err.localizedDescription)"
+						switch err{
+							case AMTError.any(let errStr):
+								self.anyUserMessage = "Error\n\(errStr)"
+							default:
+								self.anyUserMessage = "Error\n\(err.localizedDescription)"
+						}
 					}
 					print(err)
 					

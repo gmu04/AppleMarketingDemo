@@ -13,7 +13,8 @@ final class HttpClient<S:Session>{
 		
 		let task = session.dataTask(with: url) { data, response, error in
 			guard let dataValid = data, error == nil else {
-				return completion(.failure(.anyError(error!)))
+				//return completion(.failure(.anyError(error!)))
+				return completion(.failure(.any("Problem of accessing the server. Please check first your internet connection.")))
 			}
 			
 			if let res = response as? HTTPURLResponse, res.statusCode != 200{
