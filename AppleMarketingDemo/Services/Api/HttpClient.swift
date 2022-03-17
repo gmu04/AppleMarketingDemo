@@ -16,6 +16,10 @@ final class HttpClient<S:Session>{
 				return completion(.failure(.anyError(error!)))
 			}
 			
+			if let res = response as? HTTPURLResponse, res.statusCode != 200{
+				return completion(.failure(.any("Http status code:\(res.statusCode) - \(res.debugDescription)")))
+			}
+			
 			if let urlResponse = response as? HTTPURLResponse, urlResponse.statusCode != 200{
 				return completion(.failure(.statusCodeNot200(urlResponse.url?.absoluteString ?? "Error! please check your query")))
 			}
